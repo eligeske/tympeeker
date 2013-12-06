@@ -13,6 +13,7 @@ Grazi
 Todo
 ---------
 * Simplify HTML/CSS, perhaps all javascript generated
+* Make sure the selector boxes don't open up off screen
 * Refactor JavaScript to remove bloat
 * Create as jQuery plugin on input element
 * Use height/width/font-size of target element to style
