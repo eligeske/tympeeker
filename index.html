@@ -72,7 +72,7 @@
 					var minuteDefault = "00";
 					var suffixDefault = "am";
 					
-					var twentyFourHour = (settings && settings.timeStyle && (settings.timeStyle == "24" || settings.timeStyle == 24))?true:false;
+					var twentyFourHour = (settings && settings.hourType && (settings.hourType == "24" || settings.hourType == 24))?true:false;
 					
 					var container, hourBox, minuteBox, suffixBox, row, cell, arrowDown, arrowUp; 
 					var hour, minute, suffix, button, sep, pickers, clearButton;
@@ -397,7 +397,7 @@
 				var p;
 
 				$(function() {
-					p = new timePicker($("input"), { twentyFourHour: false });
+					p = new timePicker($("input"), { hourType: 24 });
 				});
 			</script>
 			<div style="padding: 200px;">				
